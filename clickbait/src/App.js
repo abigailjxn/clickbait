@@ -8,7 +8,14 @@ import "./App.css";
 function App() {
   return (
    <div>
-     <Footer/>
+     <Container>
+       <Card
+       name={memes[1].name}
+        image={memes[1].image}
+        
+       />
+     </Container>
+     <Footer />
    </div>
   );
 }
