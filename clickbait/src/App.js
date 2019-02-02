@@ -15,19 +15,22 @@ class App extends Component {
 
 
 
-handleCardClick = (id, handleUserScore) => {
+handleCardClick = (id) => {
   console.log(id)
 
   this.state.cards.forEach(card => {
     if (card.id === id ) {
       if (card.checked === true) {
         console.log("clicked twice")
-        // function to reset
+        this.setState({userScore: 0});
+        
+        // handle clicks again
+        //shuffle cards
       } else {
         card.checked = true;
         this.setState({ userScore: this.state.userScore + 1})
         // bug -- user score logs as 0 on first click
-        // console.log(`this is the user score: ${this.state.userScore}`);
+       
         if (this.state.userScore > this.state.topScore) {
           this.setState({topScore: this.state.userScore});
         };
@@ -43,7 +46,9 @@ handleCardClick = (id, handleUserScore) => {
 
 };
 
-
+// newGame = () => {
+//   handleCardClick(id);
+// }
 
 
 render (){
