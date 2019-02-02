@@ -4,4 +4,6 @@
   border: 3px solid lightgray;
   background-color: aliceblue;
   margin: 10pt;
+  /* flex: 1 0 21%; */
+  overflow: hidden;
 }
