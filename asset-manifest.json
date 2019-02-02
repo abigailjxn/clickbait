@@ -1,13 +1,13 @@
 {
   "main.css": "/clickbait/static/css/main.b8e8493c.chunk.css",
-  "main.js": "/clickbait/static/js/main.a086a406.chunk.js",
-  "main.js.map": "/clickbait/static/js/main.a086a406.chunk.js.map",
+  "main.js": "/clickbait/static/js/main.343b7558.chunk.js",
+  "main.js.map": "/clickbait/static/js/main.343b7558.chunk.js.map",
   "static/js/1.c862046c.chunk.js": "/clickbait/static/js/1.c862046c.chunk.js",
   "static/js/1.c862046c.chunk.js.map": "/clickbait/static/js/1.c862046c.chunk.js.map",
   "runtime~main.js": "/clickbait/static/js/runtime~main.daa0fc54.js",
   "runtime~main.js.map": "/clickbait/static/js/runtime~main.daa0fc54.js.map",
   "static/css/main.b8e8493c.chunk.css.map": "/clickbait/static/css/main.b8e8493c.chunk.css.map",
   "index.html": "/clickbait/index.html",
-  "precache-manifest.376deb36df8880b621d0e1cdfb4c32d4.js": "/clickbait/precache-manifest.376deb36df8880b621d0e1cdfb4c32d4.js",
+  "precache-manifest.8be7f87f62efd6dc6683b58a5b37b165.js": "/clickbait/precache-manifest.8be7f87f62efd6dc6683b58a5b37b165.js",
   "service-worker.js": "/clickbait/service-worker.js"
 }

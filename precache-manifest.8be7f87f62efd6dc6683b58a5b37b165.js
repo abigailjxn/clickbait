@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/clickbait/static/js/runtime~main.daa0fc54.js"
   },
   {
-    "revision": "a086a40676db2db692f5",
-    "url": "/clickbait/static/js/main.a086a406.chunk.js"
+    "revision": "343b755812919adb1d3a",
+    "url": "/clickbait/static/js/main.343b7558.chunk.js"
   },
   {
     "revision": "c862046c56ad480cf8af",
     "url": "/clickbait/static/js/1.c862046c.chunk.js"
   },
   {
-    "revision": "a086a40676db2db692f5",
+    "revision": "343b755812919adb1d3a",
     "url": "/clickbait/static/css/main.b8e8493c.chunk.css"
   },
   {
-    "revision": "f79ae15bde8d0eb710eaf97d0eee6d4b",
+    "revision": "2df50c9f072ffa1b824e38220e9fd00a",
     "url": "/clickbait/index.html"
   }
 ];
