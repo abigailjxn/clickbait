@@ -6,45 +6,44 @@ import memes from "./memes.json";
 import logo from "./AJ-logo.png"
 import "./App.css";
 
+const memesCopy = [...memes];
+
+
 class App extends Component {
   state = {
     userScore: 0,
     topScore: 0,
-    cards: (memes),
+    cards: memesCopy,
+    checked: []
   };
 
-
-
 handleCardClick = (id) => {
-  console.log(id)
+  let checked = this.state.checked.slice(0);
 
-  this.state.cards.forEach(card => {
-    if (card.id === id ) {
-      if (card.checked === true) {
-        console.log("clicked twice")
-        this.setState({userScore: 0});
-        
-        // handle clicks again
-        //shuffle cards
-      } else {
-        card.checked = true;
-        this.setState({ userScore: this.state.userScore + 1})
-        // bug -- user score logs as 0 on first click
-       
-        if (this.state.userScore > this.state.topScore) {
-          this.setState({topScore: this.state.userScore});
+  if (checked.findIndex(item => id === item) === -1){
+      checked.push(id);
+      this.setState({
+        checked: checked,
+        userScore: this.state.userScore + 1
+      });
+      
+      if (this.state.userScore +1 > this.state.topScore) {
+          this.setState({topScore: this.state.topScore + 1});
         };
-        
-       // shuffle cards
-       
+  } else {
+    this.setState({
+      userScore: 0,
+      checked: []
+    })
+  }
+  
+  let cards = this.state.cards.slice(0);
+  cards.sort(() => Math.random() - 0.5);
+  this.setState({cards});
 
-        
-      }
-    }
-  });
-
-
+  
 };
+
 
 // newGame = () => {
 //   handleCardClick(id);
@@ -56,7 +55,7 @@ render (){
    <div>
      <Container>
        <div className="gameboard">
-         {this.state.cards.map((card, i) => <Card key={i} id={card.id} name={card.name} image={card.image} handleCardClick={this.handleCardClick} />)}
+         {this.state.cards.map((card, i) => <Card key={i} id={card.id} name={card.name} image={card.image} handleCardClick={ () => {this.handleCardClick(card.id)}} />)}
        </div>
 
      </Container>
