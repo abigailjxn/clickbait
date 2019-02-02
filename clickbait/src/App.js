@@ -10,13 +10,12 @@ class App extends Component {
   state = {
     userScore: 0,
     topScore: 0,
-    cards: ["a","b","c","d","e", "f", "g", "h", "i"],
-    memes
+    cards: (memes),
   };
 
 
-handleCardClick = () => {
-  console.log("Clickaroo")
+handleCardClick = (id) => {
+  console.log(id)
 }
 
 
@@ -25,13 +24,9 @@ render (){
    <div>
      <Container>
        <div className="gameboard">
-         {this.state.cards.map((card, i) => <Card key={i} handleCardClick={this.handleCardClick} char={card}/>)}
+         {this.state.cards.map((card, i) => <Card key={i} id={card.id} name={card.name} image={card.image} handleCardClick={this.handleCardClick} char={card.id}/>)}
        </div>
-       <Card
-       
-        image={memes[1].image}
-        
-       />
+
      </Container>
      <Footer image={logo} userScore={this.state.userScore} topScore={this.state.topScore} />
    </div>
