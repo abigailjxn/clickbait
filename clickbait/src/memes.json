@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "7 Rings",
-    "image": "/memes/7rings.jpg"
+    "image": "./memes/7rings.jpg"
   },
   {
     "id": 2,
