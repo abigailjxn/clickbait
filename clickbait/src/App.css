@@ -1,3 +1,10 @@
+.gameboard {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  flex: row wrap;
+}
+
 .App {
   text-align: center;
 }
