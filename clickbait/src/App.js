@@ -17,7 +17,7 @@ render (){
      <Container>
        <Card
        
-        image={memes/${}}
+        image={memes[1].image}
         
        />
      </Container>

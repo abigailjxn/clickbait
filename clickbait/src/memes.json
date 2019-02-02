@@ -2,61 +2,61 @@
   {
     "id": 1,
     "name": "7 Rings",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Spongebob-squarepants.svg/666px-Spongebob-squarepants.svg.png",
+    "image": "/memes/7rings.jpg"
   },
   {
     "id": 2,
     "name": "Bongo Cat",
-    "image": "../public/memes/bongocat.jpg"
+    "image": "/memes/bongocat.jpg"
   },
   {
     "id": 3,
     "name": "Let's Get This Bread",
-    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+    "image": "/memes/getthisbread.jpg"
   },
   {
     "id": 4,
     "name": "Giant Cow",
-    "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
+    "image": "/memes/giantcow.jpg"
   },
   {
     "id": 5,
     "name": "Sanic",
-    "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
+    "image": "/memes/gottagofast.jpg"
   },
   {
     "id": 6,
     "name": "He-Man",
-    "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
+    "image": "/memes/heman.jpg"
   },
   {
     "id": 7,
     "name": "Is This a Pigeon?",
-    "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607",
+    "image": "/memes/isthisapigeon.jpg"
   },
   {
     "id": 8,
     "name": "Nyan Cat",
-    "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
+    "image": "/memes/nyancat.jpg"
   },
   {
     "id": 9,
     "name": "Rick Roll",
-    "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
+    "image": "/memes/rickroll.jpg"
   },
   {
     "id": 10,
     "name": "Sneaky Tom",
-    "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
+    "image": "/memes/sneakytom.jpg"
   },
   {
     "id": 11,
     "name": "Surprised Pikachu",
-    "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
+    "image": "/memes/surprisedpikachu.jpg"
   },
   {
     "id": 12,
     "name": "Trololol",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
+    "image": "/memes/trololol.jpg"
   }
 ]
