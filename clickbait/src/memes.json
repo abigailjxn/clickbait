@@ -7,56 +7,56 @@
   {
     "id": 2,
     "name": "Bongo Cat",
-    "image": "/memes/bongocat.jpg"
+    "image": "./memes/bongocat.jpg"
   },
   {
     "id": 3,
     "name": "Let's Get This Bread",
-    "image": "/memes/getthisbread.jpg"
+    "image": "./memes/getthisbread.jpg"
   },
   {
     "id": 4,
     "name": "Giant Cow",
-    "image": "/memes/giantcow.jpg"
+    "image": "./memes/giantcow.jpg"
   },
   {
     "id": 5,
     "name": "Sanic",
-    "image": "/memes/gottagofast.jpg"
+    "image": "./memes/gottagofast.jpg"
   },
   {
     "id": 6,
     "name": "He-Man",
-    "image": "/memes/heman.jpg"
+    "image": "./memes/heman.jpg"
   },
   {
     "id": 7,
     "name": "Is This a Pigeon?",
-    "image": "/memes/isthisapigeon.jpg"
+    "image": "./memes/isthisapigeon.jpg"
   },
   {
     "id": 8,
     "name": "Nyan Cat",
-    "image": "/memes/nyancat.jpg"
+    "image": "./memes/nyancat.jpg"
   },
   {
     "id": 9,
     "name": "Rick Roll",
-    "image": "/memes/rickroll.jpg"
+    "image": "./memes/rickroll.jpg"
   },
   {
     "id": 10,
     "name": "Sneaky Tom",
-    "image": "/memes/sneakytom.jpg"
+    "image": "./memes/sneakytom.jpg"
   },
   {
     "id": 11,
     "name": "Surprised Pikachu",
-    "image": "/memes/surprisedpikachu.png"
+    "image": "./memes/surprisedpikachu.png"
   },
   {
     "id": 12,
     "name": "Trololol",
-    "image": "/memes/trololol.jpg"
+    "image": "./memes/trololol.jpg"
   }
 ]

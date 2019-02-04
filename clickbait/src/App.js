@@ -57,7 +57,7 @@ render (){
        <div className="gameboard">
          {this.state.cards.map((card, i) => <Card key={i} id={card.id} name={card.name} image={card.image} handleCardClick={ () => {this.handleCardClick(card.id)}} />)}
        </div>
-       <p>yo</p>
+       
 
      </Container>
      <Footer image={logo} userScore={this.state.userScore} topScore={this.state.topScore} />
